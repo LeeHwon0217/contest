@@ -6,7 +6,6 @@
   font-style: normal;
 }
 * {
-  font-size: 1.2rem;
   box-sizing: border-box;
   font-family: "MarinesBold";
   margin: 0;
@@ -26,8 +25,6 @@ body {
 main {
   flex-direction: column;
   width: 90vw; /* 화면 너비의 90% */
-  height: 80vh; /* 화면 높이의 80% */
-  margin: auto;
   background-color: white;
   padding: 30px;
   display: flex;
@@ -99,7 +96,7 @@ legend {
 button[type="submit"] {
   background-color: #5f6fa9;
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
