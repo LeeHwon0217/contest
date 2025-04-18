@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>로그인</h1>
+      <form action="/signup" method="post">
+        <div class="form-group">
+          <label for="userid">아이디</label>
+          <input
+            type="text"
+            maxlength="20"
+            name="userid"
+            id="userid"
+            placeholder="아이디를 입력하세요"
+          />
+          <!-- value="apple" 얘를 안에 넣으면 미리 써진다 -->
+        </div>
+
+        <div class="form-group">
+          <label for="userpw">비밀번호</label>
+          <input
+            type="password"
+            name="userpw"
+            maxlength="20"
+            id="userpw"
+            placeholder="비밀번호를 입력하세요"
+          />
+          <!-- name을 써줘야 백엔드가 인식 -->
+        </div>
+
+        <button type="submit">로그인</button>
+        <!--누르면 action으로 간다-->
+
+        <p class="footer-text">
+          처음이신가요? <a href="./signup.html">회원가입</a>
+        </p>
+      </form>
+    </main>
+  </body>
+</html>
